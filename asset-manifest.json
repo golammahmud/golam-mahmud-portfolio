@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/golam-mahmud-portfolio/static/css/main.e557fe47.css",
+    "main.js": "/golam-mahmud-portfolio/static/js/main.2860f657.js",
+    "static/js/787.65557d19.chunk.js": "/golam-mahmud-portfolio/static/js/787.65557d19.chunk.js",
+    "static/media/7.jpeg": "/golam-mahmud-portfolio/static/media/7.1d7bf3eee4682634de86.jpeg",
+    "static/media/ruhanika.jpg": "/golam-mahmud-portfolio/static/media/ruhanika.53650de71b3ca233fa32.jpg",
+    "static/media/parvez.jpg": "/golam-mahmud-portfolio/static/media/parvez.b77461307291e0fbfde5.jpg",
+    "static/media/lenevo.jpg": "/golam-mahmud-portfolio/static/media/lenevo.f7ae47ffd9cfc6d5f855.jpg",
+    "index.html": "/golam-mahmud-portfolio/index.html",
+    "main.e557fe47.css.map": "/golam-mahmud-portfolio/static/css/main.e557fe47.css.map",
+    "main.2860f657.js.map": "/golam-mahmud-portfolio/static/js/main.2860f657.js.map",
+    "787.65557d19.chunk.js.map": "/golam-mahmud-portfolio/static/js/787.65557d19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e557fe47.css",
+    "static/js/main.2860f657.js"
+  ]
+}
