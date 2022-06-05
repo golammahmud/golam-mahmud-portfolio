@@ -258,10 +258,10 @@ function Index() {
       variants={baseVariants}
       initial="hidden"
       animate="visible"
-      className="container-fluid text-center justify-center  mb-10   lg:pb-1    "
+      className="container text-center justify-center  mb-10   lg:pb-1    "
       id="home"
     >
-      <div className="  text-center justify-center lg:mt-44 lg:mb-52  2xl:my-auto 3xl:my-auto   ">
+      <div className="  text-center justify-center lg:mt-44 lg:mb-52  2xl:my-auto 3xl:my-auto  xs:mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto   ">
           {/* <div className="grid justify-center align-center mt-20 bg-image hover-zoom rounded-full" style={{ maxWidth: "16rem" ,maxHeight: "16rem" }}> */}
 
           <div
@@ -384,7 +384,7 @@ function Index() {
 
 export default Index;
 
-{
+// {
   /* <div>
         {" "}
         <motion.h2
@@ -476,4 +476,4 @@ export default Index;
           </motion.button>
         </div>
       </div>  */
-}
+// }

@@ -22,7 +22,7 @@ function Home() {
   const location = useLocation();
   const [isVisible, setIsVisible] = React.useState(false);
   return (
-    <div className=""  >
+    <div className="container-fluid px-0"  >
       <ParticalIndex />
       <NavbarView />
       <ScrollToTop
@@ -49,6 +49,8 @@ function Home() {
       />
 
       <AnimatePresence>
+       
+       
         <Routes location={location} key={location.key}>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

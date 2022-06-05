@@ -25,7 +25,7 @@ function CardView({ images, thumbnile, title, description, onClick }) {
   return (
     <div className="sm:mx-auto ml-auto pl-auto">
       <div className="flex flex-wrap justify-center">
-        <div className="w-full lg:w-1/2 p-3" onClick={handleShow}>
+        <div className="w-full  p-3" onClick={handleShow}>
           <ProjectCard
             title={title}
             description={description}

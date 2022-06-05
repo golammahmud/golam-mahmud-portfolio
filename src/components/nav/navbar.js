@@ -86,8 +86,8 @@ function NavbarView() {
   const name = "GM";
   return (
     <div>
-      <Navbar  expand="md" bg="dark" variant="dark">
-        <Container fluid>
+      <Navbar  expand="md" >
+        <Container fluid className="px-4">
           <motion.Brand
             style={{
               display: "flex",
@@ -103,10 +103,9 @@ function NavbarView() {
               fontFamily: "monospace",
               fontStyle: "italic",
               // letterSpacing: ".5rem",
-              lineHeight: "1.5rem",
-             
-              textShadow: "0px 0px 10px #6f00ff",
-              textTransform: "uppercase",
+              lineHeight: "1.5rem",           
+              // textShadow: "0px 0px 10px #6f00ff",
+              textTransform: "uppercase",             
             }}
           >
             <h1>
@@ -117,17 +116,17 @@ function NavbarView() {
                   initial="hidden"
                   animate="visible"
                   // whileHover="hover"
-                  style={{ color: `hsl(${Math.random() * 360},100%,50%)` }}
+                  // style={{ color: `hsl(${Math.random() * 360},100%,50%)` }}
                 >
                   <NavLink
                     style={({ isActive }) => {
                       return {
-                        textShadow: isActive
-                          ? "0px 0px 10px #6f00ff"
-                          : "0px 0px 10px #fff",
-                        boxShadow: isActive
-                          ? "0px 0px 10px #6f00ff"
-                          : "0px 0px 10px #fff",
+                        // textShadow: isActive
+                        //   ? "0px 0px 10px #6f00ff"
+                        //   : "0px 0px 10px #fff",
+                        // boxShadow: isActive
+                        //   ? "0px 0px 10px #6f00ff"
+                        //   : "0px 0px 10px #fff",
                         color: isActive
                           ? "red"
                           : `hsl(${Math.random() * 360},100%,50%)`,
@@ -135,9 +134,12 @@ function NavbarView() {
                         fontSize: "2.5rem",
                         fontFamily: "Times New Roman",
                         textDecoration: "none",
-                        borderRadius: isActive ? "2px" : "0px",
+                        // border:"1px solid  `hsl(${Math.random() * 360},100%,50%)`",
+                        borderRadius:isActive ? "2px" : "0px",
                         // border:isActive?"1px solid red":"0px solid red",
                         padding: isActive ? "6px" : "0px",
+                        boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+                        zIndex:"1" 
                       };
                     }}
                     to="/"
@@ -167,12 +169,13 @@ function NavbarView() {
                   style={({ isActive }) => {
                     return {
                       // textShadow: isActive?"0px 0px 10px #6f00ff":"0px 0px 10px #fff",
-                      boxShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "none",
+                      // boxShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "none",
                       color: isActive
                         ? "red"
                         : `hsl(${Math.random() * 360},100%,50%)`,
+                        // : `hsl(${Math.random() * 360},100%,50%)`,
                       fontWeight: "bold",
                       fontSize: "1.4rem",
                       fontFamily: "Times New Roman",
@@ -191,13 +194,13 @@ function NavbarView() {
                 <NavLink
                   style={({ isActive }) => {
                     return {
-                      textShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "0px 0px 10px #fff",
-                      boxShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        // : "0px 0px 10px #fff",
-                        : "none",
+                      // textShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "0px 0px 10px #fff",
+                      // boxShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   // : "0px 0px 10px #fff",
+                      //   : "none",
                       color: isActive
                         ? "red"
                         : `hsl(${Math.random() * 360},100%,50%)`,
@@ -220,12 +223,12 @@ function NavbarView() {
                 <NavLink
                   style={({ isActive }) => {
                     return {
-                      textShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "0px 0px 10px #fff",
-                      boxShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "none",
+                      // textShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "0px 0px 10px #fff",
+                      // boxShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "none",
                       color: isActive
                         ? "red"
                         : `hsl(${Math.random() * 360},100%,50%)`,
@@ -246,12 +249,12 @@ function NavbarView() {
                 <NavLink
                   style={({ isActive }) => {
                     return {
-                      textShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "0px 0px 10px #fff",
-                      boxShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "none",
+                      // textShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "0px 0px 10px #fff",
+                      // boxShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "none",
                       color: isActive
                         ? "red"
                         : `hsl(${Math.random() * 360},100%,50%)`,
@@ -272,12 +275,12 @@ function NavbarView() {
                 <NavLink
                   style={({ isActive }) => {
                     return {
-                      textShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "0px 0px 10px #fff",
-                      boxShadow: isActive
-                        ? "0px 0px 10px #6f00ff"
-                        : "none",
+                      // textShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "0px 0px 10px #fff",
+                      // boxShadow: isActive
+                      //   ? "0px 0px 10px #6f00ff"
+                      //   : "none",
                       color: isActive
                         ? "red"
                         : `hsl(${Math.random() * 360},100%,50%)`,

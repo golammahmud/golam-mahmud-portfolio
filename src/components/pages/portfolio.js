@@ -48,9 +48,6 @@ function Portfolio() {
 const [portfoliodata, setPortfolioData]=useContext(portfolioContext);
 const [loading, setLoading]=useContext(loadContext);
 
-
-
-
   return (
     <motion.div
       variants={portfolioVariants}
@@ -58,7 +55,7 @@ const [loading, setLoading]=useContext(loadContext);
       animate="visible"
       whileHover="hover"
       exit="exit"
-      className="content-between space-x-4 mb-96"
+      className="content-between space-x-4 mb-96 "
     >
       <h1 className="portfolio-title text-center font-serif  justify-center justify-items-center font-semibold my-8 divide-y-2">
         Portfolio
@@ -71,6 +68,41 @@ const [loading, setLoading]=useContext(loadContext);
         xs:mx-auto sm:mx-auto md:mx-auto lg:mx-auto xs:justify-center xs:align-center xs:self-center"
       >
         <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
+          title="Project Title"
+          thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        />
+          <CardView
           title="Project Title"
           thumbnile="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."

@@ -154,10 +154,10 @@ export default function FooterView () {
       </motion.div>
 
 
-    <div className='text-center  p-3' style={{ backgroundColor: '#0B0A0A' ,color: `hsl(${Math.random() * 360},100%,50%)`}} >
+    <div className='text-center  p-3' style={{ backgroundColor: '#F6F6F6' ,color:"#EA4040"}} >
       © 2022 Copyright&&All rights reserved: 
-      <a className='font-serif space-x-1' href='https://mdbootstrap.com/' style={{ color: `hsl(${Math.random() * 360},100%,50%)` }}>
-         Md.Golam Mahmud
+      <a className='font-serif space-x-2' href='https://mdbootstrap.com/' style={{ color:"#131515" }}>
+          Md.Golam Mahmud
       </a>
     </div>
   </MDBFooter>
